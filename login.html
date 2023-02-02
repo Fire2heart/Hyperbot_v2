@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nullstyle.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header lock-padding">
+            <div class="header_container _container">
+                <a href="" class="header_logo"></a>
+                <a href="#popup" class="header_phone popup-link"></a>
+                <a href="#okeyblock" class="header_phone popup-link"></a>
+            </div>
+        </header>
+        <div class="back__image">
+            <img src="img/mararoni.jpg" alt="#">
+        </div>
+        <div class="main">
+            <div class="main_title">HyperBots</div>
+            <div class="container">
+                <form action="#">
+                    <div class="phone_number button_number">
+                        <img class= "flag" src="img/Flag_of_Ukraine 1.png" alt="#">
+                        <select name="coutry_code" id="coutry_code">
+                            <option value="UA">+380<alt=""></option>
+                            <option value="USA">+1</option>
+                            <option value="UK">+44</option>
+                        </select>
+                        <input placeholder="Номер мобільного телефона" type="text">
+                    </div>
+                    <a href="#popup" class="button submit">Далі</a>
+                    <div class="delimenter">або</div>
+                    <button class="button apple">
+                        <img src="img/Apple Logo.png" alt="#">
+                        <div class="continue_with">Продовжити з Apple</div>
+                    </button>
+                    <button class="button google">
+                        <img src="img/google logo.png" alt="#">
+                        <div class="continue_with">Продовжити з Google</div>
+                    </button>
+                    <div class="delimenter_1"></div>
+                    <button class="button google">
+                        <img src="img/Services.png" alt="#">
+                        <div class="continue_with">Працювати з нами</div>
+                    </button>
+                     <div class="delimenter_2"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <a href="#black_image" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <a href="#black_image" class="popup_close"></a>
+                <input placeholder="Код із SMS" type="text" class="textinput" maxlength="3" />
+                <a href="page1.html">
+                    <button class="textbutton" type="submit">✔</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
